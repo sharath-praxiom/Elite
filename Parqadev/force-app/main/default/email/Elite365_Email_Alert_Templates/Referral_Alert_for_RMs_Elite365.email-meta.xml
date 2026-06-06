@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Elite365</letterhead>
+    <name>Referral Alert for RMs Elite365</name>
+    <style>freeForm</style>
+    <subject>A New Referral was Created Without a Named Recruiter!</subject>
+    <textOnly>Hello,
+
+This Candidate came in without a named Recruiter.
+This candidate {!Contact.FirstName} {!Contact.LastName} is a(n) {!Contact.Abrv_Job_Title__c}
+
+Please assign a recruiter, thanks!</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

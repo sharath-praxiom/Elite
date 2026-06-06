@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Elite365</letterhead>
+    <name>Profile Request Elite365</name>
+    <style>freeForm</style>
+    <subject>Welcome to Elite365!</subject>
+    <textOnly>{!Contact.FirstName},
+
+
+
+Let’s get this party started! Follow the links below to complete your profile!
+
+
+
+Application Link
+
+
+
+Skills Checklist Link
+
+
+
+Please send the following (required for submission):
+
+Resume &amp; Skills Checklist (follow links above)
+
+Two supervisory references within the last year required.
+
+State Licensure / Registry (state licensure – license # &amp; state)
+ALL current certifications (AHA BLS required, ACLS, etc.)
+Current Driver’s License &amp; Social Security Card
+Covid Card &amp; Flu Vaccine (if applicable)
+
+Agency insurance Link (at the bottom you’ll find the breakdowns of cost and services covered under each plan)
+
+
+
+Earn up to $1,000 per referral: Referral Link
+
+
+
+Download the Focus Staff app (explore jobs nationwide + more!)
+
+Download Here
+
+
+That’s about it! The sooner I get all documentation, the sooner we can start submitting you to openings. Let me know if you have questions or concerns.
+
+
+
+
+{!Contact.AVTRRT__Recruiter__c}
+
+Call or Text me anytime - {!User.Phone}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

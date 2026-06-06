@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Submission to Client Side With Blurb and Job Details</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Elite365</letterhead>
+    <name>Submission to Client Side Elite365</name>
+    <style>formalLetter</style>
+    <subject>Submission: {!Contact.FirstName} {!Contact.LastName} to Job #{!AVTRRT__Job_Applicant__c.AVTRRT__Job__c}</subject>
+    <textOnly>Hello,
+Please consider {!Contact.FirstName} {!Contact.LastName} for the following:
+
+Position:
+
+Salesforce Job: {!AVTRRT__Job_Applicant__c.AVTRRT__Job__c}
+VMS:
+Parent VMS:
+VMS Reference: #
+Job Title: {!AVTRRT__Job_Applicant__c.Abrv_Job_Title__c}
+Facility: {!AVTRRT__Job_Applicant__c.AVTRRT__Account_Job__c}
+Location:  {!AVTRRT__Job_Applicant__c.Job_City__c}, {!AVTRRT__Job_Applicant__c.Job_State__c}
+Candidate SF Link: {!Contact.Link}
+Candidate Information:
+
+Name: {!AVTRRT__Job_Applicant__c.Candidate_Name__c}
+Specialty: {!Contact.Abrv_Job_Title__c}
+Years of Experience: {!Contact.AVTRRT__Total_Experience_Years__c}
+Years of Travel Experience:
+What EMR experience? (i.e. EPIC, meditech,etc):
+Date last used? (on each EMR exp.):
+
+Active State Licenses:
+Certifications: {!Contact.Certifications__c}
+
+Is Candidate open to 26 week assignment?:
+
+Available Start Date: {!Contact.AVTRRT__Available_To_Start__c}
+Requested Time Off:
+
+Phone: {!Contact.MobilePhone}
+Email: {!Contact.Email}
+Best time/day to reach:
+
+Permanent Address (on DL):
+Mileage from perm address to facility?:
+
+Date of Birth: {!Contact.Birthdate}
+Social Security Number:
+Covid Vaccination Status: {!Contact.COVID_Vaccination_Status__c}
+
+BILL RATE:
+
+Why Hire This Candidate (Bio):
+
+Willing to accept auto-offer?:
+Please let me know as soon as the candidate is submitted and next steps. Thank you for all that you do!</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

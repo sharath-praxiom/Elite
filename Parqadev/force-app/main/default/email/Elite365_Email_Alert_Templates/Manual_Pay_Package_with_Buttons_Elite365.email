@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    .table-responsive>.table-bordered{
+	     border: 1px solid #dee2e6!important;
+	    }
+		.table-bordered td, .table-bordered th {
+			border: 0px solid #dee2e6; 
+		}
+		.table td, .table th {
+          padding: 0.2rem;
+		  border-top: 0px solid #dee2e6!important;
+		}
+		.table1 td {
+		padding: 0.5rem!important;
+		}
+		.table2 td {
+		padding: 0.1rem!important;
+		}
+		.dot {
+		  height: 70px;
+		  width: 70px;
+		  background-color: #bbb;
+		  border-radius: 50%;
+		  display: inline-block;
+		}
+		.sal{
+		    position: relative;
+			top: 20px;
+			left: 2px;
+		}
+		.num{
+		    text-align:right;
+		}
+		.center{
+		    text-align:center;
+		}
+  </style>
+		
+
+</head>
+<body>
+<div class="container" style="font-size:16px!important;width:700px">
+<p> Hi {!AVTRRT__Job_Applicant__c.AVTRRT__Contact_Candidate__c},<br/><br/>
+A new position in <b>{!AVTRRT__Job_Applicant__c.Job_City__c}</b> has opened up and hoping possibly a fit. Please let me know if you are potentially interested in one of the 3 responses below. Please also keep in mind, that pay packages are a general idea of pay based on the facility's preferred bill rate. It may be further adjusted to fit your pay preferences or as more information on the job is provided. Thanks! </p></div>
+<div class="container" style="font-size:16px!important;text-align:center;width:700px">
+
+<Img Src="https://targetrecruit--ulfo.sandbox.file.force.com/servlet/servlet.ImageServer?id=015Dy000000CiOg&oid=00DDy0000002LKf&lastMod=1703196234000" alt="TargetRecruit"/></br>
+    <span class="row col-sm-12 col-md-12 "><h6 style="font-size:18px;color:#000080;margin:0">Pay Package Summary</h6></span>
+
+    
+  </div>	
+
+<div>
+					<table class="table  table-bordered" style="margin-bottom: 1rem; border-collapse:collapse;width:700px">					
+					<tbody>
+					<tr>
+							<td style="text-align:center;padding: 3.2px;color:#000080;font-size: 16px"><b>Weekly Gross</b></td>
+							
+							<td style="text-align:center;padding: 3.2px;color:#000080;font-size: 16px"><b>Assignment Gross</b> </td>
+					</tr>
+					<tr>
+							<td style="text-align:center;padding: 3.2px">
+										<span style="font-weight:bold">${!AVTRRT__Job_Applicant__c.AVTRRT__Weekly_Gross_Total__c}</span>
+							</td>
+							
+						<td style="text-align:center;padding: 3.2px"><span style="font-weight:bold">${!AVTRRT__Job_Applicant__c.Total_Pre_Tax_Pay__c}</span></td>
+					</tr>
+					</tbody>
+					</table>
+</div>  
+<div class="container .text-center" style="width:700px"> 		 
+	<div class="row col-sm-12 col-md-12">                                                                        
+			<div class="col-sm-6 col-md-6 table-responsive">   
+				<div class="font-weight-bold" style="padding: 5px;text-align:center;background-color: #000080; color: #FFFFFF;width:690px;font-size: medium;font-weight: 600;">ASSIGNMENT</div>
+				<table class="table  table-bordered" style="margin-bottom: 1rem; border-collapse:collapse;width:700px">					
+					<tbody>
+					  <tr>
+                                              <td style="padding-left:3.2px;text-align:left;color:#080707"><b>Discipline</b></td>
+						<td style=" text-align:centre;padding:10px"><b>{!AVTRRT__Job_Applicant__c.Job_Discipline__c}</b></td>
+						<td style="padding:3.2px;text-align:left;color:#080707"><b>Specialty</b></td>
+						<td style=" text-align:centre;padding:10px"><b>{!AVTRRT__Job_Applicant__c.Job_Specialty__c}</b></td>
+			            
+                   
+					  </tr>
+					  <tr>
+                                                <td style="padding-left:3.2px; text-align:left;color:#080707"><b>City</b></td>
+						<td style=" text-align:centre;padding-left:10px"><b>{!AVTRRT__Job_Applicant__c.Job_City__c}</b></td>
+                                      
+					<td style="padding-left:3.2px; text-align:left;color:#080707"><b>State</b></td>
+						<td style=" text-align:centre;padding-left:10px"><b>{!AVTRRT__Job_Applicant__c.Job_State__c}</b></td>	
+						
+						
+					  </tr>
+					  <tr>
+						<td style="padding:3.2px;text-align:left;color:#080707"><b>Hrs/Shift</b></td>
+						<td style=" text-align:centre;padding:10px"><b>{!AVTRRT__Job_Applicant__c.Deal_Sheet_Hours_Per_Day__c}</b></td>
+						
+						<td style="padding: 3.2px;text-align:left;color:#080707"><b>Postal Code</b></td>
+						<td style=" text-align:centre;padding:10px"><b>{!AVTRRT__Job_Applicant__c.Job_Postal_Code__c}</b></td>
+
+					  </tr>
+					  <tr>
+						<td style="padding:3.2px;text-align:left;color:#080707"><b>Hrs/Week</b></td>
+						<td style="text-align:centre;padding:10px"><b>{!AVTRRT__Job_Applicant__c.Deal_Sheet_Hours_Per_Week__c}</b></td>
+						<td style="padding:3.2px;text-align:left;color:#080707"><b>Total Weeks</b></td>
+						<td style="text-align:centre;padding:10px"><b>{!AVTRRT__Job_Applicant__c.Contract_Length_Weeks__c}</b></td>
+						
+						
+					  </tr>
+				
+					</tbody>
+			  </table>
+			</div>
+			
+			 <div class="col-sm-6 col-md-6 table-responsive">   
+			     <div class="font-weight-bold" style="padding: 5px;text-align:center;background-color: #000080; color: #FFFFFF;width:690px;font-size: medium;font-weight: 600;">PAY PACKAGE SUMMARY</div>				
+					
+
+		    </div>
+		    
+			<div class="table-responsive" style="width:700px">          
+				 <table class="table" style="border: 1px solid #dee2e6;margin-bottom: 1rem; border-collapse:collapse;width:700px">
+					     <thead>
+					    <tr>
+							<th style="width:200px;text-align:left;border-bottom: 2px solid #dee2e6"><b style="color:#2b3380;"></b>
+							</th>
+							
+							
+							<th style=" text-align:right;padding: 0.2rem; border-top: 0px solid #dee2e6!important;border-bottom: 2px solid #dee2e6;color:#080707">Hourly Rate</th>
+							
+							<th style=" text-align:right;padding: 0.2rem; border-top: 0px solid #dee2e6!important;border-bottom: 2px solid #dee2e6;color:#080707">Weekly</th>
+							<th style=" text-align:right;padding: 0.2rem; border-top: 0px solid #dee2e6!important;border-bottom: 2px solid #dee2e6;color:#080707">Assignment</th>
+						  </tr>
+						</thead>
+						<tbody>
+						<tr>
+							<th style="width:200px;text-align:left;border-bottom: 2px solid #dee2e6;color:#000080"><b>Taxable Income</b></th>
+							<th style="border-bottom: 2px solid #dee2e6"> </th>
+							<th style="border-bottom: 2px solid #dee2e6"> </th>
+							<th style="border-bottom: 2px solid #dee2e6"> </th>
+						</tr>
+						<tr>
+							<td style="text-align:left;padding: 5px;color:#080707"><b>Regular Pay</b></td>						
+							<td style="text-align:right;padding: 5px"><b>${!AVTRRT__Job_Applicant__c.AVTRRT__Regular_Pay_Rate__c}</b></td>
+							
+							<td style="background-color:#e8ebef;text-align:right;padding: 5px"></td>
+							<td style="text-align:right;padding: 5px"></td>
+						</tr>
+						
+						<tr>
+							<td style="padding: 5px;text-align:left">Overtime </td>
+							
+							<td style="text-align:right;padding: 5px">${!AVTRRT__Job_Applicant__c.OT_Pay_Rate__c}</td>						
+							<td style="background-color:#e8ebef;padding: 5px"> </td>
+							<td style="text-align:right;padding: 5px"></td>
+						  </tr>
+						
+						  <tr>
+							<td style="padding: 5px;text-align:left">Orientation</td>
+							
+							<td style="text-align:right;padding: 5px">${!AVTRRT__Job_Applicant__c.Orientation_Pay_Rate__c}</td>
+							
+							<td style="background-color:#e8ebef;padding: 5px"> </td>
+							<td style="text-align:right;padding: 5px"></td>
+						  </tr>
+						  						  
+						  <tr>
+							<td style="padding: 5px;text-align:left;color:#080707"><b>Total</b></td>
+							
+							<td> </td>
+							
+							<td style="background-color:#e8ebef;text-align:right;padding: 5px"><b>${!AVTRRT__Job_Applicant__c.Weekly_Taxable_Pay__c}</b></td>
+							<td style="text-align:right;padding: 5px"><b>${!AVTRRT__Job_Applicant__c.AVTRRT__Taxable_Income__c}</b></td>
+						  </tr>
+						  </br>
+						  <tr>
+							<th style="padding: 5px;text-align:left;border-bottom: 2px solid #dee2e6;"><b style="color:#000080">Non-Taxable Income</b></th>
+							
+							<th style="padding: 5px;border-bottom: 2px solid #dee2e6"> </th>
+							
+							<th style="background-color:#e8ebef;padding: 5px;border-bottom: 2px solid #dee2e6"> </th>
+							
+							<th style="border-bottom: 2px solid #dee2e6"> </th>
+						  </tr>
+
+						<tbody>
+						<tr>
+							<td style="padding: 5px;text-align:left;color:#080707"><b>Hourly Per Diem</b></td>
+							
+							<td style="text-align:right;padding: 5px"><b>${!AVTRRT__Job_Applicant__c.Hourly_Per_Diem__c}</b></td>
+							
+							<td style="background-color:#e8ebef;padding: 5px"> </td>
+							<td style="text-align:right;padding: 5px"></td>
+						</tr>
+												  
+						  <tr>
+							<td style="padding: 5px;text-align:left;color:#080707"><b>Housing </b></td>
+							
+							<td style="text-align:right;padding: 5px"></td>
+							
+							<td style="background-color:#e8ebef;padding: 5px;text-align:right"><b>${!AVTRRT__Job_Applicant__c.Lodging_Weekly_Adjusted__c}</b></td>
+							<td style="text-align:right;padding: 5px"></td>
+						  </tr>
+						  <tr>
+							<td style="padding: 5px;text-align:left;color:#080707"><b>Meals and Incidentals </b></td>
+							<td style="text-align:right;padding: 5px"></td>
+							
+							<td style="background-color:#e8ebef;padding: 5px;text-align:right"><b>${!AVTRRT__Job_Applicant__c.M_I_Weekly_Adjusted__c}</b></td>
+							<td style="text-align:right;padding: 5px"></td>
+						  </tr>
+						
+						  
+						  <tr>
+							<td style="padding: 5px;text-align:left"><b style="color:#080707"> Total </b></td>
+							
+							<td> </td>
+							
+							<td style="background-color:#e8ebef;text-align:right;padding: 5px"><b>${!AVTRRT__Job_Applicant__c.Weekly_Non_Taxable_Pay__c}</b></td>
+							<td style="text-align:right;padding: 5px"><b>${!AVTRRT__Job_Applicant__c.AVTRRT__Non_Taxable_Income__c}</b></td>
+						  </tr>
+						  <thead>
+							<th style="background-color:#000080;padding: 5px;text-align:left;font-size:14px;color:#FFFFFF"><b>Gross Income</b></th>
+							
+							<th style="background-color:#000080;padding: 5px"> </th>
+							<th style="background-color:#000080;padding: 5px;text-align:right;font-size:14px;color:#FFFFFF">${!AVTRRT__Job_Applicant__c.Weekly_Pre_Tax_Pay__c}</th>
+							<th style="background-color:#000080;padding: 5px;text-align:right;font-size:14px;color:#FFFFFF">${!AVTRRT__Job_Applicant__c.Total_Pre_Tax_Pay__c}</th>
+						  </thead>
+					</tbody>
+				</table>
+			<div>
+			<tr>
+			<td>
+				<a href="{!AVTRRT__Job_Applicant__c.Portal_Site_URL__c}apex/UpdateYes?Id={!AVTRRT__Job_Applicant__c.Id}">
+					<button style="display: inline-block;
+				  border-radius: 10px;
+				  background-color: #60BB06;
+				  border: 5px;
+				  color: #FFFFFF;
+				  text-align: center;
+				  font-size: 17px;
+				  padding: 20px;
+				  width: 220px;
+				  transition: all 0.5s;
+				  cursor: pointer;
+				  margin: auto;
+				  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);"> Yes, I'm Interested </button>
+				</a>
+			</td>
+			<td>
+				<a href="{!AVTRRT__Job_Applicant__c.Portal_Site_URL__c}apex/UpdateReqAddInfo?Id={!AVTRRT__Job_Applicant__c.Id}">
+					<button style="display: inline-block;
+				  border-radius: 10px;
+				  background-color: #9D45E1;
+				  border: 5px;
+				  color: #FFFFFF;
+				  text-align: center;
+				  font-size: 17px;
+				  padding: 20px;
+				  width: 280px;
+				  transition: all 0.5s;
+				  cursor: pointer;
+				  margin: 5px;
+				  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);"> Request Additional Info</button>
+				</a>
+			</td> 
+			<td>    
+				<a  href="{!AVTRRT__Job_Applicant__c.Portal_Site_URL__c}apex/UpdateNo?Id={!AVTRRT__Job_Applicant__c.Id}">
+				<button style="display: inline-block;
+				  border-radius: 10px;
+				  background-color: #FF1E1E;
+				  border: 5px;
+				  color: #FFFFFF;
+				  text-align: center;
+				  font-size: 17px;
+				  padding: 20px;
+				  width: 170px;
+				  transition: all 0.5s;
+				  cursor: pointer;
+				  margin: 5px;
+				  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);"> No, Thank You </button>
+				</a>
+			</td>
+			</tr>
+				
+			</div>		
+
+				
+			</div>
+					
+	</div>
+</div>
+<p><i><u>If you no longer wish to receive these emails, please reply to this message with "Unsubscribe" in the subject line.</u></i></p>
+<b>Thanks</b><br/>
+{!AVTRRT__Job_Applicant__c.AVTRRT__Recruiter__c}<br/>
+{!AVTRRT__Job_Applicant__c.AVTRRT__Recruiter_Email__c}<br/>
+{!AVTRRT__Job_Applicant__c.AVTRRT__Recruiter_Phone__c}<br/>
+<br/><br/>
+</body>
+</html>

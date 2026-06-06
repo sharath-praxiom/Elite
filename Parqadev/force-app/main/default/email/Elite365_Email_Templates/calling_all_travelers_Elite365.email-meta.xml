@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>send to interested travelers</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Elite365</letterhead>
+    <name>calling all travelers Elite365</name>
+    <style>formalLetter</style>
+    <subject>Calling all travelers, are you ready for your next adventure!?</subject>
+    <textOnly>Hi Traveler,
+
+We are so excited that you have an interest in traveling! Elite365 has opportunities that will allow your passion and career to collide. We have a variety of opportunities that you qualify for. We promise to provide top-notch customer service and to be by your side along the way! 
+
+We offer competitive pay packages, benefits you deserve, and we have a team that is excited to meet you. I would like the opportunity to speak with you in regards to your needs for your next travel assignment. In the meantime, here are a few &quot;wins&quot; we provide:
+Medical, Dental, Vision and 401K available on Day 1
+Assistance with housing 
+Referral program with unlimited earning potential for referring qualified Allied Healthcare Professionals our way
+$250 License Allowance for Each State You Accept an Assignment
+
+Please let me know when it is a good time and a good number to reach you. I can&apos;t wait to hear from you!</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

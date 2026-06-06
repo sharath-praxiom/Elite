@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div>This Application <a href="https://focusstaff.lightning.force.com/lightning/r/AVTRRT__Job_Applicant__c/{!AVTRRT__Job_Applicant__c.Id}/view">{!AVTRRT__Job_Applicant__c.Name}</a> for <a href="https://focusstaff.lightning.force.com/lightning/r/Contact/{!AVTRRT__Job_Applicant__c.Candidate_SFID18__c}/view">{!AVTRRT__Job_Applicant__c.AVTRRT__Contact_Candidate__c}</a> has now been assigned to you.</div><div><br></div><div>Click <a href="https://focusstaff.lightning.force.com/lightning/o/AVTRRT__Job_Applicant__c/list?filterName=My_New_Applicants">here</a> to see a list of your New Applicants.<br></div><div><br></div><div>Thank you!</div>]]></td>
+</tr>
+</table>

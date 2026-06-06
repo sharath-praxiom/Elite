@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Elite365</letterhead>
+    <name>Pending Review Board Alert Elite365</name>
+    <style>freeForm</style>
+    <subject>{!Contact.Name} - Pending Review Board</subject>
+    <textOnly>A contact has been marked as pending review or proceed with caution. See details below along with a link to the record.
+
+Candidate: {!Contact.Name}
+Pending Review Board: {!Contact.Pending_Review_Board__c}
+Proceed with Caution: {!Contact.Proceed_with_Caution__c}
+Do Not Use: {!Contact.Ineligible_for_Hire__c}
+
+Contact Link</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

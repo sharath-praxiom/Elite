@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div>Hi,</div><div><br></div><div>The contract is now Active for this client in New York. Please inform the NY&nbsp;<span class="ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak" dir="ltr">Department of Health</span>&nbsp;of this new contract.<br><br>Facility:&nbsp;<a href="{!Account.Link}">{!Account.Name}</a></div><div>Parent Account:&nbsp;{!Account.Parent}</div><div><br></div><div>Thanks!</div>]]></td>
+</tr>
+</table>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Elite365</letterhead>
+    <name>Job Applicant Close b/c Job Closed Elite365</name>
+    <style>freeForm</style>
+    <subject>Submission Closed on Account of Job Closing: {!AVTRRT__Job_Applicant__c.Name} for {!AVTRRT__Job_Applicant__c.Candidate_Name__c}</subject>
+    <textOnly>This Submission {!AVTRRT__Job_Applicant__c.Name} for {!AVTRRT__Job_Applicant__c.Candidate_Name__c} has now closed because the job has closed.
+
+
+
+Please contact this candidate to inform them of this and offer alternative opportunities.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

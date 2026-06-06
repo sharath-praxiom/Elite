@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Elite365</letterhead>
+    <name>Submitted to Client to Rejected Alert Elite365</name>
+    <style>freeForm</style>
+    <subject>Updated Stage for Candidate: {!AVTRRT__Job_Applicant__c.AVTRRT__Contact_Candidate__c} on Job Application {!AVTRRT__Job_Applicant__c.Name}</subject>
+    <textOnly>Updated Stage for Job Application {!AVTRRT__Job_Applicant__c.Name} was {!AVTRRT__Job_Applicant__c.Stage_Prior_Value__c} and is now {!AVTRRT__Job_Applicant__c.AVTRRT__Stage__c}.
+
+Submittal Notes: {!AVTRRT__Job_Applicant__c.Submittal_Notes__c}
+
+This is for your candidate {!AVTRRT__Job_Applicant__c.Candidate_Name__c}
+
+Job Applicant Link: {!AVTRRT__Job_Applicant__c.Link}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

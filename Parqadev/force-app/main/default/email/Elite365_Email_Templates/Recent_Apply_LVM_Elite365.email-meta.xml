@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Elite365</letterhead>
+    <name>Recent Apply - LVM Elite365</name>
+    <style>freeForm</style>
+    <subject>Your recent job inquiry with Elite365!</subject>
+    <textOnly>Hey {!Contact.FirstName},
+
+
+
+Following up on my call just now!
+
+
+
+Searching for your next local or travel assignment? I’ve got HOT JOBS, opportunities nationwide, a great referral AND loyalty program.
+
+
+
+Earn up to $1,000 per referral: Referral Link
+
+Just add me ({!User.Name}) as the recruiter and refer away!
+
+
+
+Download the Focus Staff app, and let’s explore what’s available!
+
+Download Here
+
+{!User.Name}
+Call or Text me anytime: {!User.Phone}
+
+
+
+P.S. Click here to know a little more about me - Website Profile</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

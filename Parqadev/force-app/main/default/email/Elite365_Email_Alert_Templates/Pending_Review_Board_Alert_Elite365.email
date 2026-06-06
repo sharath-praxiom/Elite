@@ -1,0 +1,11 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[A contact has been marked as pending review or proceed with caution. See details below along with a link to the record.<br>
+<br>
+<strong>Candidate:</strong> {!Contact.Name}<br>
+<strong>Pending Review Board: </strong>{!Contact.Pending_Review_Board__c} <br>
+<strong>Proceed with Caution: </strong>{!Contact.Proceed_with_Caution__c}<br>
+<div><strong>Do Not Use: </strong>{!Contact.Ineligible_for_Hire__c}</div><div><br></div><div><a href="https://focusstaff.lightning.force.com/{!Contact.Contact_SFID18__c}">Contact Link</a><br></div>]]></td>
+</tr>
+</table>

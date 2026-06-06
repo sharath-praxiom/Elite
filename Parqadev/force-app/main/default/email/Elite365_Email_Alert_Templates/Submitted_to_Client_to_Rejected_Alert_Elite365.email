@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[Updated Stage for Job Application&nbsp;{!AVTRRT__Job_Applicant__c.Name} was&nbsp;{!AVTRRT__Job_Applicant__c.Stage_Prior_Value__c} and is now {!AVTRRT__Job_Applicant__c.AVTRRT__Stage__c}.<div><br></div><div>Submittal Notes:&nbsp;{!AVTRRT__Job_Applicant__c.Submittal_Notes__c}</div><div><br></div><div>This is for your candidate&nbsp;{!AVTRRT__Job_Applicant__c.Candidate_Name__c}</div><div><br></div><div>Job Applicant <a href="{!AVTRRT__Job_Applicant__c.Link}">Link</a></div>]]></td>
+</tr>
+</table>

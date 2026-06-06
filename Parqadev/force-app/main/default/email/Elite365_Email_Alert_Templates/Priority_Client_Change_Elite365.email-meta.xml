@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Elite365</letterhead>
+    <name>Priority Client Change Elite365</name>
+    <style>freeForm</style>
+    <subject>Priority Client Change for {!Account.Name}</subject>
+    <textOnly>Hello,
+
+Priority Client designation has been changed for this client {!Account.Name} - {!Account.Link}.
+
+The newly changed status is now: {!Account.Priority_Client__c}
+If &quot;1&quot; - Client is marked as a Priority Client
+If &quot;0&quot; - Client is no longer a Priority Client
+
+Modified by: {!Account.LastModifiedBy}
+
+Thanks!</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

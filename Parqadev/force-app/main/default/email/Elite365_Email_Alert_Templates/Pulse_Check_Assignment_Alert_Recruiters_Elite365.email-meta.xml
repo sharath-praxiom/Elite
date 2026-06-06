@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Elite365</letterhead>
+    <name>Pulse Check Assignment Alert - Recruiters Elite365</name>
+    <style>freeForm</style>
+    <subject>You Have Incomplete Pulse Checks</subject>
+    <textOnly>Hi {!Pulse_Checks__c.OwnerFirstName},
+
+You are getting this email because you have outstanding Pulse Checks.
+
+Please enter your notes and if complete mark each Pulse Check as such.
+
+Here is a list of all your incomplete Pulse Checks.
+
+Thank you for all your hard work and giving your Travelers the attention they deserve!</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
