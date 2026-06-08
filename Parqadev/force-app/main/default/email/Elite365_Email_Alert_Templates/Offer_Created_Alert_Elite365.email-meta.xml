@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Elite365</letterhead>
+    <name>Offer Created Alert Elite365</name>
+    <style>freeForm</style>
+    <subject>{!Offer__c.New_Deal_or_Extension__c} Offer Created for: {!Offer__c.Candidate__c}</subject>
+    <textOnly>Hi there,
+
+An Offer has been created for {!Offer__c.Candidate__c}!
+
+Abrv. Job Title - {!Offer__c.Candidate_Abrv_Job_Title__c}
+
+Link to Job - {!Offer__c.Job__c}
+Link to Job Applicant - {!Offer__c.Job_Applicant__c} (if its not an extension)
+Link to {!Offer__c.Name}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

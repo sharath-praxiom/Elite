@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Elite365</letterhead>
+    <name>Applicant Assignment Notice Elite365</name>
+    <style>freeForm</style>
+    <subject>Applicant Assigned: {!AVTRRT__Job_Applicant__c.Name} for {!AVTRRT__Job_Applicant__c.AVTRRT__Contact_Candidate__c}</subject>
+    <textOnly>This Application {!AVTRRT__Job_Applicant__c.Name} for {!AVTRRT__Job_Applicant__c.AVTRRT__Contact_Candidate__c} has now been assigned to you.
+
+Click here to see a list of your New Applicants.
+
+Thank you!</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

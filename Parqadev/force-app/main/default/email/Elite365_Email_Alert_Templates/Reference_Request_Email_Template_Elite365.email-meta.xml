@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Elite365</letterhead>
+    <name>Reference Request Email Template Elite365</name>
+    <style>freeForm</style>
+    <subject>Please provide reference for {!AVTRRT__References__c.AVTRRT__Candidate__c}</subject>
+    <textOnly>Hi {!AVTRRT__References__c.AVTRRT__First_Name__c} {!AVTRRT__References__c.AVTRRT__Last_Name__c},
+
+{!AVTRRT__References__c.AVTRRT__Candidate__c} has selected you as someone who can provide a professional reference.
+
+We would really appreciate just a couple minutes of your time and honest feedback, as we are assisting in securing their next position. Please follow the link below to complete this reference. We promise, its quick and painless!
+
+Complete Reference
+
+Thank you in advance!
+
+Cheers</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

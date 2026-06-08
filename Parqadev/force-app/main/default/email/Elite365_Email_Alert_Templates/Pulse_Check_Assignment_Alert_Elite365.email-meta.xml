@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Elite365</letterhead>
+    <name>Pulse Check Assignment Alert Elite365</name>
+    <style>freeForm</style>
+    <subject>Pulse Check Assignment Notice for Placement: {!Pulse_Check__c.Placement_ID__c}</subject>
+    <textOnly>Hi,
+
+You&apos;ve been assigned to a Pulse Check for this Placement concerning this Account and this Candidate.
+
+Please enter your notes and if complete mark the Pulse Check as such.
+
+Here is a list of all your incomplete Pulse Checks.
+
+Thanks!</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

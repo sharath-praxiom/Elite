@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Submission to Client Side With Blurb and Job Details</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Elite365</letterhead>
+    <name>Submission to Client - Temporary Elite365</name>
+    <style>formalLetter</style>
+    <subject>Submission: {!AVTRRT__Job_Applicant__c.Candidate_Name__c} to Job #{!AVTRRT__Job_Applicant__c.AVTRRT__Job__c}</subject>
+    <textOnly>Hello,
+Please consider {!Contact.FirstName} {!Contact.LastName} for the following:
+
+Position:
+
+Salesforce Job: {!AVTRRT__Job_Applicant__c.AVTRRT__Job__c}
+VMS: {!AVTRRT__Job_Applicant__c.Job_Vendor__c}
+Parent VMS: {!AVTRRT__Job_Applicant__c.VMS_Used__c}
+VMS Reference: #{!AVTRRT__Job_Applicant__c.VMS_Reference__c}
+Job Title: {!AVTRRT__Job_Applicant__c.Abrv_Job_Title__c}
+Facility: {!AVTRRT__Job_Applicant__c.AVTRRT__Account_Job__c}
+Location: {!AVTRRT__Job_Applicant__c.Billing_City__c}, {!AVTRRT__Job_Applicant__c.Billing_State__c}
+Shift: {!AVTRRT__Job_Applicant__c.Job_Shift__c}
+Rate Sheet %:
+Applicant ID: {!AVTRRT__Job_Applicant__c.Name}
+Candidate SF Link: Link
+Candidate Information:
+
+Name: {!AVTRRT__Job_Applicant__c.Candidate_Name__c}
+Specialty: {!AVTRRT__Job_Applicant__c.Temp_Job_Title__c}
+Years of Experience: {!AVTRRT__Job_Applicant__c.Temp_Experience__c}
+Years of Travel Experience:
+What EMR experience? (i.e. EPIC, meditech,etc):
+Date last used? (on each EMR exp.):
+
+Active State Licenses: {!AVTRRT__Job_Applicant__c.Temp_State_Licenses__c}
+Certifications: {!AVTRRT__Job_Applicant__c.Temp_Certs__c}
+
+Is Candidate open to 26 week assignment?:
+
+Available Start Date: {!AVTRRT__Job_Applicant__c.Temp_Avail_to_Start__c}
+Requested Time Off:
+
+Phone: {!AVTRRT__Job_Applicant__c.Temp_Phone__c}
+Email: {!AVTRRT__Job_Applicant__c.Temp_Email__c}
+Best time/day to reach: {!AVTRRT__Job_Applicant__c.Temp_Best_time_to_reach__c}
+Perm Address listed in SF: {!AVTRRT__Job_Applicant__c.Temp_Address__c}
+
+Permanent Address (on DL):
+Mileage from perm address to facility?:
+
+Date of Birth: {!AVTRRT__Job_Applicant__c.Temp_DOB__c}
+Social Security Number:
+Covid Vaccination Status: {!AVTRRT__Job_Applicant__c.Temp_Covid__c}
+
+BILL RATE:
+
+Why Hire This Candidate (Bio):
+
+Willing to accept auto-offer?:
+Please let me know as soon as the candidate is submitted and next steps. Thank you for all that you do!</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

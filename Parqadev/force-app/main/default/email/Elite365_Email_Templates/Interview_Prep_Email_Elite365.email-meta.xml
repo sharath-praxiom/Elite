@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Elite365</letterhead>
+    <name>Interview Prep Email Elite365</name>
+    <style>freeForm</style>
+    <subject>Elite365 - Interview Prep</subject>
+    <textOnly>Hey there,
+
+You are officially submitted out! Here&apos;s a few things I like to remind all my travelers about the interview process.
+
+The facility might call you, email you, or text you - so be on the lookout for all three. Any communication you have with someone from the facility, reach out to me immediately for an update. Even if you miss a call! :-)
+
+Things to write down:
+*Managers Name:
+*Managers Number:
+*Start Date:
+*Requested time off:
+*Length of assignment:
+*Shift information (times/call etc.):
+*Any other information you feel I need to know, have questions about, or why you wouldn&apos;t immediately accept:
+
+Don&apos;t be afraid to ask for the job travel managers love that! Or if there&apos;s anything you&apos;re hesitant about, please ask them at the interview and let me know as well.
+
+I&apos;m really excited for you and us starting this journey together.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

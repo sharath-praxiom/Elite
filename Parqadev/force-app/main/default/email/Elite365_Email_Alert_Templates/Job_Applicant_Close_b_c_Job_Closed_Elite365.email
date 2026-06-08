@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[This Submission <a href="https://focusstaff.lightning.force.com/{!AVTRRT__Job_Applicant__c.Id}">{!AVTRRT__Job_Applicant__c.Name}</a> for<a href="https://focusstaff.lightning.force.com/{!AVTRRT__Job_Applicant__c.Candidate_SFID18__c}"> {!AVTRRT__Job_Applicant__c.Candidate_Name__c}</a> has now closed because the <a href="https://focusstaff.lightning.force.com/{!AVTRRT__Job_Applicant__c.Job_SFID18__c}">job</a> has closed. <br><div class="flex flex-grow flex-col gap-3"><div class="min-h-[20px] flex items-start overflow-x-auto whitespace-pre-wrap break-words"><div class="markdown prose w-full break-words dark:prose-invert dark"><p><br></p><p>Please contact this candidate to inform them of this and offer alternative opportunities.</p></div></div></div>]]></td>
+</tr>
+</table>

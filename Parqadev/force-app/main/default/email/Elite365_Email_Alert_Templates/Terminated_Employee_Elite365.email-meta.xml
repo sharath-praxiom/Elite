@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Elite365</letterhead>
+    <name>Terminated Employee Elite365</name>
+    <style>freeForm</style>
+    <subject>Terminated Employee: {!AVTRRT__Placement__c.Candidate_Name__c} {!AVTRRT__Placement__c.Name}</subject>
+    <textOnly>There has been a placement termination
+
+
+
+Termination Date: {!AVTRRT__Placement__c.Termination_Date__c}
+
+Candidate: {!AVTRRT__Placement__c.Candidate_Name__c}
+
+Specialty: {!AVTRRT__Placement__c.Candidate_Name__c}
+
+Recruiter: {!AVTRRT__Placement__c.AVTRRT__Recruiter__c}
+
+Account Owner: {!AVTRRT__Placement__c.Account_Owner__c}
+
+Client: {!AVTRRT__Placement__c.AVTRRT__Employer__c}
+
+Contract: {!AVTRRT__Placement__c.Contract__c}
+
+Placment ID: {!AVTRRT__Placement__c.Name}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Submission to Client Side With Blurb and Job Details</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Elite365</letterhead>
+    <name>**Submittal - Client Elite365**</name>
+    <style>formalLetter</style>
+    <subject>Submission: {!Contact.FirstName} {!Contact.LastName} to Job #{!AVTRRT__Job_Applicant__c.AVTRRT__Job__c}</subject>
+    <textOnly>Hello,
+Please consider {!Contact.FirstName} {!Contact.LastName} for the following:
+
+Position:
+
+Salesforce Job: {!TRHC__Job_Applicant__c.TRHC__Job__c}
+VMS: {!TRHC__Job_Applicant__c.Job_Vendor__c}
+Parent VMS: {!TRHC__Job_Applicant__c.VMS_Used__c}
+VMS Reference: #{!TRHC__Job_Applicant__c.VMS_Reference__c}
+Job Title: {!TRHC__Job_Applicant__c.Abrv_Job_Title__c}
+Facility: {!TRHC__Job_Applicant__c.TRHC__Account_Job__c}
+Location: {!TRHC__Job_Applicant__c.Billing_City__c}, {!TRHC__Job_Applicant__c.Billing_State__c}
+Shift: {!TRHC__Job_Applicant__c.Job_Shift__c}
+Rate Sheet %:
+Applicant ID: {!TRHC__Job_Applicant__c.Name}
+Candidate SF Link: Link
+
+Candidate Information:
+
+Name: {!TRHC__Job_Applicant__c.TRHC__Candidate_Name__c}
+Specialty: {!Contact.Abrv_Job_Title__c}
+Years of Experience: {!Contact.TRHC__Total_Experience_Years__c}
+Years of Travel Experience:
+What EMR experience? (i.e. EPIC, meditech,etc):
+Date last used? (on each EMR exp.):
+
+Active State Licenses: {!Contact.LicensesNew__c}
+Certifications: {!Contact.TRHC__Certifications__c}
+
+Is Candidate open to 26 week assignment?:
+
+Available Start Date: {!Contact.TRHC__Available_To_Start__c}
+Requested Time Off:
+
+Phone: {!Contact.MobilePhone}
+Email: {!Contact.Email}
+Best time/day to reach: {!Contact.TRHC__Best_time_day_to_reach_you__c}
+
+Permanent Address (on DL):
+Mileage from perm address to facility?:
+
+Date of Birth: {!Contact.Birthdate}
+Social Security Number:
+Covid Vaccination Status: {!Contact.COVID_Vaccination_Status__c}
+
+BILL RATE:
+
+Why Hire This Candidate (Bio):
+
+Willing to accept auto-offer?:
+
+Please let me know as soon as the candidate is submitted and next steps. Thank you for all that you do!</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

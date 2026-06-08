@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Elite365</letterhead>
+    <name>Offer Accepted Alert Elite365</name>
+    <style>freeForm</style>
+    <subject>{!Offer__c.New_Deal_or_Extension__c} Offer Accepted for: {!Offer__c.Candidate__c}</subject>
+    <textOnly>Hi,
+
+A(n) {!Offer__c.New_Deal_or_Extension__c} Offer has been accepted. If you have any other outstanding offers or submissions with this candidate, please remove or close them out.
+
+Thanks!</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
