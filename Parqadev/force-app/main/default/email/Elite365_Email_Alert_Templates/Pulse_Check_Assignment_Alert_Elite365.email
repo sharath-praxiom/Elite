@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div>Hi,</div><div><br></div><div>You've been assigned to a Pulse Check for this&nbsp;<a href="https://focusstaff.lightning.force.com/{!Pulse_Check__c.Placement_ID__c}">Placement</a>&nbsp;concerning this&nbsp;<a href="https://focusstaff.lightning.force.com/{!Pulse_Check__c.Account_ID__c}">Account</a>&nbsp;and this&nbsp;<a href="https://focusstaff.lightning.force.com/{!Pulse_Check__c.Candidate_ID__c}">Candidate</a>.<br></div><div><br></div><div>Please enter your notes and if complete mark the&nbsp;<a href="https://focusstaff.lightning.force.com/{!Pulse_Check__c.Pulse_Check_ID__c}">Pulse Check</a>&nbsp;as such.</div><div><br></div><div>Here is a&nbsp;<a href="https://focusstaff.lightning.force.com/a3U?fcf=00B2o00000CMDLVEA5">list</a>&nbsp;of all your incomplete Pulse Checks.<br></div><div><br></div><div>Thanks!</div>]]></td>
+</tr>
+</table>

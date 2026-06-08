@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Submittal Notes have been updated</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Elite365</letterhead>
+    <name>Submittal Notes Updated Elite365</name>
+    <style>freeForm</style>
+    <subject>Updated Submittal Notes for Job Applicant {!AVTRRT__Job_Applicant__c.Name}</subject>
+    <textOnly>Hi,
+
+Submittal notes have been updated for Job Applicant {!AVTRRT__Job_Applicant__c.Name}  - {!AVTRRT__Job_Applicant__c.Link}
+
+If you want to reply to the AM please add this person to the thread:
+Account Manager: {!AVTRRT__Job_Applicant__c.Account_Owner__c}
+
+Candidate Name: {!AVTRRT__Job_Applicant__c.Candidate_Name__c}
+Job: {!AVTRRT__Job_Applicant__c.AVTRRT__Job__c}
+Account: {!AVTRRT__Job_Applicant__c.AVTRRT__Account_Job__c}
+
+Submittal Notes: {!AVTRRT__Job_Applicant__c.Submittal_Notes__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

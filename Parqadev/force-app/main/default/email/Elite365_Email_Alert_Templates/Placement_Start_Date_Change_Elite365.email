@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div>Hi,</div><div><br></div><div>This placement's start dates have now changed to: {!AVTRRT__Placement__c.AVTRRT__Start_Date__c}<br></div><div><br></div><div>Account - <a href="https://focusstaff.lightning.force.com/{!AVTRRT__Placement__c.AVTRRT__EmployerId__c}">{!AVTRRT__Placement__c.AVTRRT__Employer__c}</a><br></div><div>Candidate - <a href="https://focusstaff.lightning.force.com/{!AVTRRT__Placement__c.AVTRRT__Contact_CandidateId__c}">{!AVTRRT__Placement__c.Candidate_Name__c}</a><br></div><div>Placement - <a href="https://focusstaff.lightning.force.com/{!AVTRRT__Placement__c.Id}">{!AVTRRT__Placement__c.Name}</a><br></div><div>Recruiter - {!AVTRRT__Placement__c.AVTRRT__Recruiter__c}<br></div>]]></td>
+</tr>
+</table>

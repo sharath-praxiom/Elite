@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Elite365</letterhead>
+    <name>New Placement Made Elite365</name>
+    <style>freeForm</style>
+    <subject>New Placement Made: {!AVTRRT__Placement__c.Candidate_Name__c} - {!AVTRRT__Placement__c.Abrv_Job_Title__c}</subject>
+    <textOnly>New Placement Made!
+
+Candidate: {!AVTRRT__Placement__c.Candidate_Name__c}
+Job Title: {!AVTRRT__Placement__c.Abrv_Job_Title__c}
+Recruiter: {!AVTRRT__Placement__c.AVTRRT__Recruiter__c}
+Facility: {!AVTRRT__Placement__c.AVTRRT__Employer__c}
+
+Compliance Package for Contract: {!AVTRRT__Placement__c.Contract_Name__c}
+
+Placement ID: {!AVTRRT__Placement__c.Name}
+
+Thanks and Have a great day!</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

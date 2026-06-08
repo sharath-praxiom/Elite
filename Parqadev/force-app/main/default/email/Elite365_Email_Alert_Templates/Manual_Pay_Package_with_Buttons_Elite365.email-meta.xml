@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>https://targetrecruit.atlassian.net/browse/UPP-46 - Default Pay Package email template that includes our standard format + response buttons for candidate</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Manual Pay Package with Buttons Elite365</name>
+    <style>none</style>
+    <subject>New job in {!AVTRRT__Job_Applicant__c.Job_City__c}, {!AVTRRT__Job_Applicant__c.Job_State__c} - {!AVTRRT__Job_Applicant__c.AVTRRT__Contact_Candidate__c} are you interested?</subject>
+    <textOnly>Hi {!AVTRRT__Job_Applicant__c.AVTRRT__Contact_Candidate__c},
+
+A new position in {!AVTRRT__Job_Applicant__c.Job_City__c} has opened up and hoping possibly a fit. Please let me know if you are potentially interested in one of the 3 responses below. Please also keep in mind, that pay packages are a general idea of pay based on the facility&apos;s preferred bill rate. It may be further adjusted to fit your pay preferences or as more information on the job is provided. Thanks!
+
+Pay Package Summary
+
+Weekly Gross  Assignment Gross
+${!AVTRRT__Job_Applicant__c.AVTRRT__Weekly_Gross_Total__c}   ${!AVTRRT__Job_Applicant__c.Total_Pre_Tax_Pay__c}
+
+ASSIGNMENT
+
+Discipline  {!AVTRRT__Job_Applicant__c.Job_Discipline__c}  Specialty  {!AVTRRT__Job_Applicant__c.Job_Specialty__c}
+City  {!AVTRRT__Job_Applicant__c.Job_City__c}  State  {!AVTRRT__Job_Applicant__c.Job_State__c}
+Hrs/Shift  {!AVTRRT__Job_Applicant__c.Deal_Sheet_Hours_Per_Day__c}  Postal Code  {!AVTRRT__Job_Applicant__c.Job_Postal_Code__c}
+Hrs/Week  {!AVTRRT__Job_Applicant__c.Deal_Sheet_Hours_Per_Week__c}  Total Weeks  {!AVTRRT__Job_Applicant__c.Contract_Length_Weeks__c}
+
+PAY PACKAGE SUMMARY
+
+Hourly Rate Weekly Assignment
+Taxable Income
+Regular Pay  ${!AVTRRT__Job_Applicant__c.AVTRRT__Regular_Pay_Rate__c}
+Overtime   ${!AVTRRT__Job_Applicant__c.OT_Pay_Rate__c}
+Orientation  ${!AVTRRT__Job_Applicant__c.Orientation_Pay_Rate__c}
+Total     ${!AVTRRT__Job_Applicant__c.Weekly_Taxable_Pay__c}  ${!AVTRRT__Job_Applicant__c.AVTRRT__Taxable_Income__c}
+Non-Taxable Income
+Hourly Per Diem  ${!AVTRRT__Job_Applicant__c.Hourly_Per_Diem__c}
+Housing     ${!AVTRRT__Job_Applicant__c.Lodging_Weekly_Adjusted__c}
+Meals and Incidentals     ${!AVTRRT__Job_Applicant__c.M_I_Weekly_Adjusted__c}
+Total      ${!AVTRRT__Job_Applicant__c.Weekly_Non_Taxable_Pay__c}  ${!AVTRRT__Job_Applicant__c.AVTRRT__Non_Taxable_Income__c}
+Gross Income   ${!AVTRRT__Job_Applicant__c.Weekly_Pre_Tax_Pay__c} ${!AVTRRT__Job_Applicant__c.Total_Pre_Tax_Pay__c}
+
+Yes, I&apos;m Interested        Request Additional Info       No, Thank You
+
+If you no longer wish to receive these emails, please reply to this message with &quot;Unsubscribe&quot; in the subject line.
+
+Thanks
+{!AVTRRT__Job_Applicant__c.AVTRRT__Recruiter__c}
+{!AVTRRT__Job_Applicant__c.AVTRRT__Recruiter_Email__c}
+{!AVTRRT__Job_Applicant__c.AVTRRT__Recruiter_Phone__c}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

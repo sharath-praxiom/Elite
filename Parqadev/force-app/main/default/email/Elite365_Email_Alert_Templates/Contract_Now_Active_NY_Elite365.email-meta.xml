@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Contract Now Active - NY</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Elite365</letterhead>
+    <name>Contract Now Active - NY Elite365</name>
+    <style>freeForm</style>
+    <subject>Contract Now Active - NY - {!Account.Name}</subject>
+    <textOnly>Hi,
+
+The contract is now Active for this client in New York. Please inform the NY Department of Health of this new contract.
+
+Facility: {!Account.Name}
+Parent Account: {!Account.Parent}
+
+Thanks!</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <!-- Elite365 Email Folders -->
+    <types>
+        <members>Elite365_Email_Templates</members>
+        <members>Elite365_Email_Alert_Templates</members>
+        <members>Elite365_Submittal_Email_Templates</members>
+        <name>EmailFolder</name>
+    </types>
+
+    <!-- Elite365 Email Templates -->
+    <types>
+        <!-- Elite365 Email Templates Folder -->
+        <members>Elite365_Email_Templates/calling_all_travelers_Elite365</members>
+        <members>Elite365_Email_Templates/Submittal_Client_Elite365</members>
+        <members>Elite365_Email_Templates/Client_Submittal_Elite365</members>
+        <members>Elite365_Email_Templates/Submission_to_Client_Side_Elite365</members>
+        <members>Elite365_Email_Templates/Submission_to_Client_Side_Ellite365</members>
+        <members>Elite365_Email_Templates/Apply_but_lacks_experience_Elite365</members>
+        <members>Elite365_Email_Templates/Interview_Prep_Email_Elite365</members>
+        <members>Elite365_Email_Templates/Profile_Request_Elite365</members>
+        <members>Elite365_Email_Templates/Recent_Apply_LVM_Elite365</members>
+        <members>Elite365_Email_Templates/Reference_Received_Elite365</members>
+
+        <!-- Elite365 Email Alert Templates Folder -->
+        <members>Elite365_Email_Alert_Templates/Pending_Review_Board_Alert_Elite365</members>
+        <members>Elite365_Email_Alert_Templates/Applicant_Assignment_Notice_Recruiter_Elite365</members>
+        <members>Elite365_Email_Alert_Templates/Contract_Now_Active_NY_Elite365</members>
+        <members>Elite365_Email_Alert_Templates/Job_Applicant_Close_b_c_Job_Closed_Elite365</members>
+        <members>Elite365_Email_Alert_Templates/Manual_Pay_Package_with_Buttons_Elite365</members>
+        <members>Elite365_Email_Alert_Templates/New_Placement_Made_Elite365</members>
+        <members>Elite365_Email_Alert_Templates/Offer_Accepted_Alert_Elite365</members>
+        <members>Elite365_Email_Alert_Templates/Offer_Created_Alert_Elite365</members>
+        <members>Elite365_Email_Alert_Templates/Placement_Start_Date_Change_Elite365</members>
+        <members>Elite365_Email_Alert_Templates/Pre_Start_Cancel_Elite365</members>
+        <members>Elite365_Email_Alert_Templates/Priority_Client_Change_Elite365</members>
+        <members>Elite365_Email_Alert_Templates/Pulse_Check_Assignment_Alert_Elite365</members>
+        <members>Elite365_Email_Alert_Templates/Pulse_Check_Assignment_Alert_Recruiters_Elite365</members>
+        <members>Elite365_Email_Alert_Templates/Reference_Request_Email_Template_Elite365</members>
+        <members>Elite365_Email_Alert_Templates/Referral_Alert_for_Recruiters_Elite365</members>
+        <members>Elite365_Email_Alert_Templates/Referral_Alert_for_RMs_Elite365</members>
+        <members>Elite365_Email_Alert_Templates/Skills_Checklist_Complete_Elite365</members>
+        <members>Elite365_Email_Alert_Templates/Submittal_Notes_Updated_Elite365</members>
+        <members>Elite365_Email_Alert_Templates/Submitted_to_Client_to_Rejected_Alert_Elite365</members>
+        <members>Elite365_Email_Alert_Templates/Terminated_Employee_Elite365</members>
+
+        <!-- Elite365 Submittal Email Templates Folder -->
+        <members>Elite365_Submittal_Email_Templates/Submission_to_Client_Temporary_Elite365</members>
+
+        <name>EmailTemplate</name>
+    </types>
+
+    <version>59.0</version>
+</Package>

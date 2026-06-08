@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div>Hi there,</div><div><br></div><div>An Offer has been created for <a href="https://focusstaff.lightning.force.com/{!Offer__c.CandidateId__c}">{!Offer__c.Candidate__c}</a>!</div><div><br></div><div>Abrv. Job Title - {!Offer__c.Candidate_Abrv_Job_Title__c}<br></div><div><br></div><div>Link to Job - <a href="https://focusstaff.lightning.force.com/{!Offer__c.Job_SFID18__c}">{!Offer__c.Job__c}</a><br></div><div>Link to Job Applicant - <a href="https://focusstaff.lightning.force.com/{!Offer__c.Job_Applicant_SFID18__c}">{!Offer__c.Job_Applicant__c}</a> (if its not an extension)<br></div><div>Link to <a href="https://focusstaff.lightning.force.com/{!Offer__c.Id}">{!Offer__c.Name}</a></div>]]></td>
+</tr>
+</table>

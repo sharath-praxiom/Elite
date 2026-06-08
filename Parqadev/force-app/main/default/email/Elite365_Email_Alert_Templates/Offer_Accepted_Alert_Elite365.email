@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div>Hi,</div><div><br></div><div>A(n) <a href="https://focusstaff.lightning.force.com/{!Offer__c.Id}">{!Offer__c.New_Deal_or_Extension__c} Offer</a> has been accepted. If you have any other outstanding offers or submissions with <a href="https://focusstaff.lightning.force.com/{!Offer__c.Candidate_SFID18__c}">{!Offer__c.Candidate__c}</a>, please remove or close them out.</div><div><br></div><div>Thanks!<br></div>]]></td>
+</tr>
+</table>
